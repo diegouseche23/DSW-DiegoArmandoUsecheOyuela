@@ -1,0 +1,125 @@
+#titulo {
+
+    color: black;
+    text-align: center;
+    white-space: initial;
+}
+
+h3 {
+
+    color: purple;
+    width: 1410px;
+    height: 50px;
+
+}
+
+.mokup {
+
+    font-family: Arial;
+    color: purple;
+    text-align: center;
+
+}
+
+#video{
+    text-align: center;
+}
+#centrar{
+    color: purple;
+    text-align: center;
+}
+
+/*menu*/
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+}
+nav > ul{
+    background: white;
+    display: table;
+    width: 100%;
+}
+nav li{
+    line-height: 3rem;
+}
+nav li li {
+    background: rgb(0, 0, 0);
+}
+nav a {
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+    transition: .4s;
+}
+nav a:hover{
+    background: rgba(0, 0, 0, .5);
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+section{
+    grid-column: 1/2;
+}
+aside{
+    grid-column: 2/3;
+}
+.menu li{
+    display: inline-block;
+}
+li a, menu{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em 1em;
+}
+
+.listadesplegable{
+    display: none;
+    text-align: left;
+    position: absolute;
+}
+.boton:hover .listadesplegable{
+    display: block;
+}
+.listadesplegable2{
+    display: none;
+    text-align: left;
+    position: absolute;
+}
+.boton2:hover .listadesplegable2{
+    display: block;
+    
+}
+
+.listadesplegable3{
+    display: none;
+    text-align: left;
+    position: absolute;
+}
+.boton3:hover .listadesplegable3{
+    display: block;
+}
+
+.contenedores{
+
+    background-color:FAF57A;
+    padding: 70px;
+   display: grid;
+   
+}
+
+.Informacion{
+
+    margin: auto;
+    color: black;
+    text-align: center;
+    background-color:white;
+    width: 400px;
+    height: 300px;
+    
+}
